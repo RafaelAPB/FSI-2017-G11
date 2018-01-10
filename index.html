@@ -59,7 +59,7 @@
 	<body>
 		<div class="bg">
 		<!----- start-header---->
-			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+			<div id="home" class="header wow fadeInUp" data-wow-delay="0.4s">
 					<div class="top-header">
 						<div class="container">
 						<div class="logo">
@@ -84,7 +84,7 @@
 			</div>
 			<!----- //End-header---->
 			<!---- banner ---->
-			<div class="banner wow fadeIn" data-wow-delay="0.5s">
+			<div class="banner wow fadeInUp" data-wow-delay="0.5s">
 				<div class="container">
 					<div class="banner-info text-center">
 						<h1>G11 - Marketing</h1><br />
@@ -101,7 +101,7 @@
 							<div class="portfolio-top">
 								<!--ADD ROW IF everything bellow: <div class="row"-->
 									<div class="col-md-8">
-										<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
+										<div class="portfolio-top-left wow fadeInRight" data-wow-delay="0.2s">
 											<h3>What is Marketing?</h3>
 											<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
 											<p>Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.</p>
@@ -237,7 +237,7 @@
 		<!--- portfolio ---->
 			<div class="row" id ="past">
 					<div class="col-md">
-						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
+						<div class="portfolio-top-left wow fadeInUp" data-wow-delay="0.3s">
 							<h3 class="centered">The Marketing Legacy</h3>
 							<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
 							<p>Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.</p>
@@ -250,7 +250,7 @@
 
 			<div id="future" class="services">
 				<div class="container">
-					<div class="service-head text-center">
+					<div class="service-head text-center wow fadeInUp" data-wow-delay="0.3s">
 						<h2>What to expect from Marketing in the future?</h2>
 						<span> </span>
 					</div>
@@ -293,6 +293,8 @@
 						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
 							<h3 class="centered">A Real Case</h3>
 							<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+							<embed src="pdf/example.pdf"  id="pdf" type='application/pdf'>
+
 
 						</div>
 					</div>
@@ -303,10 +305,37 @@
 
 			<div class="row" id ="what_if">
 					<div class="col-md">
-						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
-							<h3 class="centered">What if</h3>
-							<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
-							<p>Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.</p>
+						<div class="portfolio-top-left wow fadeInRight" data-wow-delay="0.4s">
+							<h3 class="centered">An alternative path</h3>
+							<br>	
+							<p>Nowadays, there seems to exist a gap between marketing ads and customer attention. Also, there seems to be a lot of place to digital ads companies to fill that gap.</p>
+							<p>Google recently launched PWA (Progressive Web Apps), aimed to join the best of Apps with the best of Web.</p>
+							<p></p>
+
+							<figure>
+								<img src="images/pwa2.png" alt="">
+							  <figcaption></figcaption>
+							</figure>
+							<h1 class="centered"><b>But...</b></h1><br><br>
+							<h2>Aren't ad-blockers a serious obstacle for digital ads?</h2>
+							<h2>Does the marketing industry needs to be aimed necessarly to the digital zone?</h2>
+							<h2>How can we both overcome this challenge, while getting closer to the user?</h2>
+							<h2>Should we try to focus again on the physical marketing, despite its advantages?</h2>
+							<br>
+							<h2><b>What we purpose is a way of joining the best of digital ads with the best of physical ads, leveraged by an omni-channel strategy, enabled by PWA.</b></h2>
+							<p> We believe that can happen. The idea we are going to purpose is already in practise. This idea not only fights ad-blockers, by providing an alternate source of revenue, but also takes into account people's location. Bellow there is a conceptual map that can provide a high-level view of the idea.
+
+							<figure>
+								<img src="images/mapaconceptual.png" id = "mapaconceptualwhatif" alt="">
+							  <figcaption></figcaption>
+							</figure>								
+
+							<p>The idea is to use the combination PWA + push-up notifications to reach Android users, according to their location.<br>
+							 There is how the connection happens: The potential customer is walking, looking at his/her smartphone. When the customer passes by a store which is a client of InnovativeStartup#1, he/she receives a push notification on the phone. That push notification might contain useful information (like coupons or new products) from Store#1, a client of InnovativeCompany#1.<br><br>
+							 If the potential customer is already a customer, some specific campaigns can be applied. For the user to receive the notifications, Bluetooth must be active. What happens, is that the store contains a RFID tag on the physical location. When the smartphone is in the radius of the tag, it receives a push-notification. Then, if the user comes in and uses the coupon code, the InnovativeCompany#1 may charge Store#1. <br><br>
+							The high concept pitch for this product is Google AdWords, but for physical locations. The ClientStore#1 may have a dashboard, implemented by InnovativeCompany#1, connecting its database to the marketing application, allowing the store to deliver customized ads based on a specific algorithm or magic sauce. In our opinion, there is a lot of business opportunities and room to innovate.<br><br>
+							More information on our <a href="#contact">team's report</a>.
+						</p>
 
 						</div>
 			</div>
@@ -315,14 +344,14 @@
 
 
 
-			<div id="team" class="team-members">
+			<div id="team" class="team-members wow fadeInLeft" data-wow-delay="0.4s">
 					<div class="wrap"> 
 						<div class="tm-head">
 							<h3>our amazing team</h3>
 							<p>Proin iaculis purus consequat sem cure.</p>
 						</div>
 						<div class="tm-head-grids">
-							<div class="tm-head-grid wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="tm-head-grid">
 								<img src="images/team-member1.jpg" alt="">
 								<h4>Alexandre Dionísio</h4>
 								<h5>76202</h5>
@@ -461,11 +490,13 @@
 							<label>In case of doubts, drop us an email or say hello! We will be happy for clarifying :) </we></label>
 							<div class="contact-left-grids">
 								<div class="col-md-6">
-								</div>
-								<div class="col-md-6">
-									<div class="contact-right-grid">
-										<p><span class="c-msg"> </span><a href="https://docs.google.com/spreadsheets/d/1T7YJcWPuOWJo7kgZ2qIBa8fuOOQ6z18io4qqazlpAnE/edit#gid=1">Check the FSI Dashboard to get a contact!</a></p>
-									</div>
+										<button type="button" class="btn btn-danger">
+										  <span class="glyphicon glyphicon-envelope" aria-hidden="true"><a class="lastbuttons" href="phttps://docs.google.com/spreadsheets/d/1T7YJcWPuOWJo7kgZ2qIBa8fuOOQ6z18io4qqazlpAnE/edit#gid=1"> Reach Out!</a></span>
+										</button>
+										<br><br>
+										<button type="button" class="btn btn-danger">
+										  <span class="glyphicon glyphicon-paperclip" aria-hidden="true" href="pdf/example.pdf"><a class="lastbuttons" href="pdf/example.pdf"> Final Report</a></span>
+										</button>
 								</div>
 								<div class="clearfix"> </div>
 							</div>

@@ -37,3 +37,23 @@
 .centered	{
 	text-align: center;
 }
+
+#pdf	{
+	width: 100%;
+	height: 400px;
+}
+
+#mapaconceptualwhatif	{
+	width: 100%;
+	height: 100%;
+}
+
+.lastbuttons	{
+	font-size: 2em;
+	color: white;
+}
+
+.lastbuttons:hover	{
+	color: #f9f9f9;
+	text-decoration: none;
+}
