@@ -1,25 +1,3 @@
-#esconder{
-    visibility: hidden;
-}
-
-#contacto {
-    height: 500px;
-    width: 800px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 html, body{
   	font-family: 'Montserrat', sans-serif;
     font-size: 100%;
@@ -397,7 +375,6 @@ a.leran-more:hover{
 	width:32px;
 	height:32px;
 	display:inline-block;
-	background:url(../images/port-icons.png) no-repeat 0px 0px;
 	margin-top:0.5em;
 }
 .portfolio-top-left-grid-right h5{
@@ -613,7 +590,7 @@ a.leran-more:hover{
 /*---team-members--*/
 .team-members{
 	padding: 3em 0 4em 0;
-	background: #F9F9F9;
+	background: white;
 }
 .tm-head{
 	text-align:center;
@@ -924,9 +901,6 @@ a.leran-more:hover{
 	.portfolio-top-left-grid-right p {
 		width: 100%;
 	}
-	.portfolio-top-left {
-		background: url(../images/portbg-1.png) no-repeat 68% 51%;
-	}
 	.about-time-line > li .cbp_tmlabel {
 		width: 55%;
 		margin: 0% 0 0px -23%;
@@ -959,7 +933,6 @@ a.leran-more:hover{
 		width: 100%;
 	}
 	.portfolio-top-left {
-		background: url(../images/portbg-1.png) no-repeat 68% 51%;
 		padding: 1.5em 4em 1.5em 4em;
 	}
 	.about-time-line > li .cbp_tmlabel {
