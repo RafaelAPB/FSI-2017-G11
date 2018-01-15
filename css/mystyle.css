@@ -14,7 +14,7 @@
 
 .top-nav ul li a:hover	{
 	color:#00a0e3;
-	font-size:1.05em;
+	font-size:1.01em;
 }
 
 .logo	{
@@ -56,4 +56,14 @@
 .lastbuttons:hover	{
 	color: #f9f9f9;
 	text-decoration: none;
+}
+
+.img-team {
+  width: 250px;
+  height: 200px;
+}
+
+.futuro	{
+	width: 200px;
+	height: 200px;
 }
